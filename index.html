@@ -60,7 +60,7 @@
           </svg>
         </button>
       </div>
-      <div class="mob-menu is-open">
+      <div class="mob-menu is-ope">
         <button type="button" class="mob-menu-close"><svg class="icons-close" width="8" height="8"><use href="./images/icons.svg#icon-close"></use></svg>
         </button>
         <ul class="list-nav-mob">
@@ -81,7 +81,7 @@
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com" class="list-adress-link-mob"
+            <a href="mailto:info@devstudio.com" class="list-adress-link-mob current-mob"
               >info@devstudio.com</a
             >
           </li>
@@ -118,17 +118,6 @@
       <!--section1-->
       <section class="section-list">
         <div class="container container-title">
-          <picture>
-            <source media="(min-width: 1166px)" srcset="./images/Portfolio/people-officedesk1x.jpg 1x, ./images/Portfolio/people-officedesk2x.jpg 2x">
-            <source media="(min-width: 768px)" srcset="./images/Portfolio/people-officetab1x.jpg 1x, ./images/Portfolio/people-officetab2x.jpg 2x">
-            <source media="(max-width: 767px)" srcset="./images/Portfolio/people-officemob1x.jpg 1x, ./images/Portfolio/people-officemob2x.jpg 2x">
-            <img
-          src="./images/Portfolio/people-office.jpg"
-          alt="People-office"
-          class=""
-          width=""
-        />
-          </picture>
           <h1 class="title-main">Effective Solutions For Your Business</h1>
           <button type="button" class="button">Order Service</button>
         </div>
@@ -204,12 +193,18 @@
           <h2 class="title-team">Our Team</h2>
           <ul class="ul-our-team">
             <li class="list-our-team">
-              <img class="img-our-team"
+              <picture>
+                <source media="(min-width: 1166px)" srcset="./images/Portfolio/markdesk1x.jpg 1x, ./images/Portfolio/markdesk2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="./images/Portfolio/marktab1x.jpg 1x, ./images/Portfolio/marktab2x.jpg 2x">
+                <source media="(max-width: 767px)" srcset="./images/Portfolio/markmob1x.jpg 1x, ./images/Portfolio/markmob2x.jpg 2x">
+                <img
+                class="img-our-team"
                 src="./images/Photo/img3.jpg"
                 alt="img3"
                 width="264"
                 height="260"
-              />
+            />
+              </picture>
               <div class="name-team">
                 <h3 class="title-our-team">Mark Guerrero</h3>
                 <p class="list-our-team-name">Product Designer</p>
@@ -246,12 +241,18 @@
               </div>
             </li>
             <li class="list-our-team">
-              <img class="img-our-team"
+              <picture>
+                <source media="(min-width: 1166px)" srcset="./images/Portfolio/tomdesk1x.jpg 1x, ./images/Portfolio/tomdesk2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="./images/Portfolio/tomtab1x.jpg 1x, ./images/Portfolio/tomtab2x.jpg 2x">
+                <source media="(max-width: 767px)" srcset="./images/Portfolio/tommob1x.jpg 1x, ./images/Portfolio/tommob2x.jpg 2x">
+                <img
+                class="img-our-team"
                 src="./images/Photo/img2.jpg"
                 alt="img2"
                 width="264"
                 height="260"
-              />
+            />
+              </picture>
               <div class="name-team">
                 <h3 class="title-our-team">Tom Ford</h3>
                 <p class="list-our-team-name">Frontend Developer</p>
@@ -288,12 +289,17 @@
                 </div>
             </li>
             <li class="list-our-team">
-              <img class="img-our-team"
+              <picture>
+                <source media="(min-width: 1166px)" srcset="./images/Portfolio/camilladesk1x.jpg 1x, ./images/Portfolio/camilladesk2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="./images/Portfolio/camilatab1x.jpg ./images/Portfolio/camilatab2x.jpg 2x">
+                <source media="(max-width: 767px)" srcset="./images/Portfolio/camilamob1x.jpg 1x, ./images/Portfolio/camilamob2x.jpg 2x">
+                <img
+                class="img-our-team"
                 src="./images/Photo/img1.jpg"
-                alt="img1"
+                alt="img"
                 width="264"
                 height="260"
-              />
+            />
               <div class="name-team">
                 <h3 class="title-our-team">Camila Garcia</h3>
                 <p class="list-our-team-name">Marketing</p>
@@ -330,12 +336,17 @@
               </div>
             </li>
             <li class="list-our-team">
-              <img class="img-our-team"
+              <picture>
+                <source media="(min-width: 1166px)" srcset="./images/Portfolio/danieldesk1x.jpg 1x, ./images/Portfolio/danieldesk1x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="./images/Portfolio/danieltab1x.jpg 1x, ./images/Portfolio/danieltab2x.jpg 2x">
+                <source media="(max-width: 767px)" srcset="./images/Portfolio/danielmob1x.jpg 1x, ./images/Portfolio/danielmob2x.jpg 2x">
+                <img
+                class="img-our-team"
                 src="./images/Photo/img.jpg"
                 alt="img"
                 width="264"
                 height="260"
-              />
+            />
               <div class="name-team">
                 <h3 class="title-our-team">Daniel Wilson</h3>
                 <p class="list-our-team-name">UI Designer</p>
@@ -559,6 +570,7 @@
           </div>
       </div>
     </footer> 
+    <!-- Backdrop -->
     <div class="backdrop is-ope">
       <div class="modal">
         <button type="button" class="modal-close"><svg class="icons-close" width="8" height="8"><use href="./images/icons.svg#icon-close"></use></svg>
